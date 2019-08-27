@@ -1,0 +1,68 @@
+#footer {
+  @include color(alt);
+  background-color: _palette(alt, bg);
+  color: _palette(fg-light);
+  cursor: default;
+  position: relative;
+  margin: 5rem auto;
+  width: calc(100% - #{_size(padding) * 2});
+  max-width: _size(wrapper);
+  z-index: 2;
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  > section {
+    @include padding((_size(padding) * 2), (_size(padding) * 2));
+  }
+
+  form label,
+  h3,
+  p {
+    font-size: 1rem;
+  }
+
+  @include breakpoint("<=medium") {
+		display: block;
+		margin: 3rem auto;
+
+    form label,
+    h3,
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  @include breakpoint("<=small") {
+    > section {
+      @include padding((_size(padding) * 1), (_size(padding) * 1));
+    }
+  }
+
+  @include breakpoint("<=xsmall") {
+    width: 100%;
+  }
+}
+
+#quote {
+  @include color-typography(invert);
+  position: relative;
+  color: transparentize(_palette(invert, fg), 0.2);
+  cursor: default;
+  font-family: _font(family-heading);
+  font-size: 0.9rem;
+  font-weight: _font(weight-heading);
+  letter-spacing: 0.075em;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  margin: (_size(padding) * 2) auto (_size(padding) * 4) auto;
+  width: calc(100% - #{_size(padding) * 2});
+  max-width: _size(wrapper);
+  z-index: 2;
+
+  @include breakpoint("<=large") {
+    margin: (_size(padding) * 2) auto;
+  }
+}

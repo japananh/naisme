@@ -1,0 +1,10 @@
+{
+  "name": "naisme",
+  "version": "1.0.0",
+  "description": "Na's personal websites",
+  "main": "main.js",
+  "repository": "https://github.com/japananh/naisme",
+  "author": "Nhat Anh",
+  "license": "MIT",
+  "private": true
+}
