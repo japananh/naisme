@@ -6,5 +6,8 @@
   "repository": "https://github.com/japananh/naisme",
   "author": "Nhat Anh",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss assets/css/main.css"
+  }
 }

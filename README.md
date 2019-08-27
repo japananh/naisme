@@ -1,1 +1,1 @@
-I created this resume with Jquery and JavaScript, html, css.
+I created my personal website with JavsCript, Jquery and HTML/CSS.
