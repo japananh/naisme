@@ -1,1 +1,1 @@
-I created my personal website with JavsCript, Jquery and HTML/CSS.
+I created my personal website with JavaScript, Jquery and HTML/CSS.
