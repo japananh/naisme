@@ -2795,15 +2795,15 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #quote {
   color: #ffffff;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   cursor: default;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 0.9rem;
-  font-weight: 900;
+  font-weight: 300;
   letter-spacing: 0.075em;
   line-height: 1.5;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
   margin: 4rem auto 8rem auto;
   width: calc(100% - 4rem);
   max-width: 72rem;

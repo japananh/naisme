@@ -24,8 +24,8 @@
   }
 
   @include breakpoint("<=medium") {
-		display: block;
-		margin: 3rem auto;
+    display: block;
+    margin: 3rem auto;
 
     form label,
     h3,
@@ -48,15 +48,15 @@
 #quote {
   @include color-typography(invert);
   position: relative;
-  color: transparentize(_palette(invert, fg), 0.2);
+  color: transparentize(_palette(invert, fg), 0.1);
   cursor: default;
   font-family: _font(family-heading);
-  font-size: 0.9rem;
-  font-weight: _font(weight-heading);
+  font-size: .9rem;
+  font-weight: _font(weight);
   letter-spacing: 0.075em;
   line-height: 1.5;
-  text-align: center;
   text-transform: uppercase;
+  text-align: center;
   margin: (_size(padding) * 2) auto (_size(padding) * 4) auto;
   width: calc(100% - #{_size(padding) * 2});
   max-width: _size(wrapper);
